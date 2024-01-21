@@ -1,0 +1,67 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    
+}
+h1{
+    margin-top:12px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+body {
+    background-image: linear-gradient(rgb(202, 156, 156), rgb(143, 121, 183));
+    height: 100vh;
+  }
+.container{
+    max-width: 955px;
+   margin: auto;
+   border:2px solid;
+   border-radius: 4px;
+    background-color: paleturquoise;
+    height: 60vh;
+    padding:33px;
+    overflow-y: auto;   
+    margin-bottom: 7px;
+    width: 81%;
+}
+
+.message {
+    background-color: aqua;
+    width: 24%;
+    padding: 11px;
+    margin: 11px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{    
+    float: right;
+    clear: both;
+
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+     max-width:955px ;
+     width: 100%;
+
+}
+#messageinp{
+    width: 84%;
+    border: 2px solid;
+    border-radius: 5px;
+    height:34px;
+}
+.btn{
+    cursor:pointer;
+    border:2px solid;
+    border-radius: 5px;
+    height: 34px;
+}
